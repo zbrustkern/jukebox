@@ -1,4 +1,4 @@
-const BACKEND_URL = '/api/users'
+const BACKEND_URL = '/api'
 
 const getUser = () => {
   const token = localStorage.getItem('token');
