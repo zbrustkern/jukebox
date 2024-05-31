@@ -29,6 +29,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(path.dirname(__dirname), 'React-Front-End', 'dist', 'index.html'));
 })
 
-app.listen(3001, () => {
+app.listen(process.env.PORT, () => {
     console.log('The express app is ready!');
 });
